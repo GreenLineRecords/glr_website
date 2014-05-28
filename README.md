@@ -1,6 +1,6 @@
 Green Line Record's Website
 ===========
-We're currently using Middleman. Poke around on their site to see what it's all about. 
+We're currently using Middleman. Poke around on [their site](http://middlemanapp.com/) to see what it's all about. 
 
 
 
@@ -11,3 +11,4 @@ To get started working on this:
 
 
 Once you worked on some code in the source file and want to look at it locally take a peak at the The Development Cycle (middleman server) section of the same link from above.
+
