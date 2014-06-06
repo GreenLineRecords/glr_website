@@ -1,0 +1,22 @@
+%div.container
+  %div{:id => "carousel",
+       :class => "carousel slide col-md7",
+       :data_ride => "carousel"}
+    %ol.carousel-indicators
+      %li{:data_target => "#carousel", :data_slide_to => "0", :class => "active"}
+      %li{:data_target => "#carousel", :data_slide_to => "1"}
+    %div.carousel-inner
+      %div.item.active
+        %img{:src => "http://imagecache.artistrising.com/artwork/lrg//4/490/YZC6000A.jpg", :alt => "..."}
+        %div.carousel-caption HI
+      %div.item
+        %img{:src => "http://dda604.com/wp-content/uploads/2011/02/vancouver-skyline-400x200.jpg", :alt => "..."}
+    %a{:class => "left carousel-control", :href => "", :data_slide => "prev"}
+      %span{:class => "glyphicon glyphicon-chevron-left"}
+    %a{:class => "right carousel-control", :href => "#carousel", :data_slide => "next"}
+      %span{:class => "glyphicon glyphicon-chevron-right"}
+  %div{:class => "col-md-4 col-md-offset-1"} Events go here?
+%div.container
+  %div{:class => "col-md-3"} Events go here?
+  %div{:class => "col-md-3 col-md-offset-1"} Something goes here?
+  %div{:class => "col-md-3 col-md-offset-1"} Something goes here?
